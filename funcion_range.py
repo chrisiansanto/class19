@@ -24,3 +24,27 @@ print("Vocales en la frase:")
 for x in "aeiou":
   if x in frase:
     print(x, end=" ")
+print("Ejercicio 7")
+S = 0
+for x in range(0, 101, 1):
+    S += x
+    print(x,end=" ")
+print("La sumatoria total es ", S, end=" ")
+print("Ejercicio 8")
+total=0
+for i in range(101):
+    total=total+i
+print("Sumatoria:", total, end=" ")
+print("Ejercicio 9")
+total=0
+for i in range(101):
+    if i %3 == 0:
+        total=total+i
+print("Sumatoria de los múltiplos de 3:", total, end=" ")
+print("Ejercicio 10")
+numero=int(input("Número:"))
+f=1
+if numero!=0:
+    for i in range(1,numero+1):
+        f=f*i
+print("Factorial:", f, end=" ")
